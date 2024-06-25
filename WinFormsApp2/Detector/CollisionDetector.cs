@@ -10,7 +10,7 @@ namespace WinFormsApp2.Detector
 {
     public class CollisionDetector
     {
-        private const double CollisionDistanceThreshold = 0.002; // 222 METROW
+        private const double CollisionDistanceThreshold = 0.002; // 222 m.
         private AisDecoder decoder = new AisDecoder();
 
         public CollisionVMO? PredictCollision(List<string> aisMessages, int predictionDurationSeconds, int timeStepSeconds)

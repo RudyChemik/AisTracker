@@ -45,11 +45,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Helvetica", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(73, 36);
+            this.label1.Location = new System.Drawing.Point(44, 43);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(648, 76);
+            this.label1.Size = new System.Drawing.Size(748, 76);
             this.label1.TabIndex = 0;
-            this.label1.Text = "WYKRYTO KOLIZJE";
+            this.label1.Text = "COLLISION DETECTED";
             // 
             // CloseApp
             // 
@@ -81,37 +81,37 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(12, 142);
+            this.label2.Location = new System.Drawing.Point(148, 151);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(279, 50);
+            this.label2.Size = new System.Drawing.Size(204, 50);
             this.label2.TabIndex = 6;
-            this.label2.Text = "Kurs kolizyjny z:";
+            this.label2.Text = "Collied id : ";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(12, 201);
+            this.label3.Location = new System.Drawing.Point(39, 203);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(262, 50);
+            this.label3.Size = new System.Drawing.Size(305, 50);
             this.label3.TabIndex = 7;
-            this.label3.Text = "Czas do kolizji:";
+            this.label3.Text = "Time to incident :";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(12, 261);
+            this.label4.Location = new System.Drawing.Point(62, 261);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(255, 50);
+            this.label4.Size = new System.Drawing.Size(290, 50);
             this.label4.TabIndex = 8;
-            this.label4.Text = "Miejsce kolizji:";
+            this.label4.Text = "Collision cords : ";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Helvetica", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(311, 150);
+            this.label5.Location = new System.Drawing.Point(368, 159);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(202, 42);
             this.label5.TabIndex = 9;
@@ -121,7 +121,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Helvetica", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(311, 209);
+            this.label6.Location = new System.Drawing.Point(368, 209);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(202, 42);
             this.label6.TabIndex = 10;
@@ -131,7 +131,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Helvetica", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(311, 269);
+            this.label7.Location = new System.Drawing.Point(368, 267);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(202, 42);
             this.label7.TabIndex = 11;
